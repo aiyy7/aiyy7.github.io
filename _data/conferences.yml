@@ -1,95 +1,14 @@
 
 ---
-
-- name: CoNLL
+- name: NAACL
   year: 2018
-  id: conll18
-  link: http://www.conll.org/
-  deadline: "2018-10-31 00:00:00"
+  id: naacl18
+  link: http://naacl2018.org/
+  deadline: "2018-06-01 23:59:59"
   timezone: Etc/GMT+12
-  date: October 31 - November 1, 2018
-  place: Brussels, Belgium
+  date: June 2-4, 2018
+  place: New Orleans, USA
   sub: NLP
-
-- name: ICDM
-  year: 2018
-  id: icdm2018
-  link: http://icdm2018.org/
-  deadline: "2018-11-17 00:00:00"
-  timezone: Etc/GMT-7
-  date: November 17-20, 2018
-  place: Singapore
-  sub: ML
-
-- name: CoRL
-  year: 2018
-  id: corl2018
-  link: http://www.robot-learning.org/
-  deadline: "2018-10-29 00:00:00"
-  timezone: America/Los_Angeles
-  date: October 29-31, 2018
-  place: Zurich, Switzerland
-  sub: RO
-
-- name: WACV
-  year: 2019
-  id: wacv19
-  link: http://wacv19.uccs.us/
-  deadline: "2019-01-07 23:59:59"
-  timezone: America/Los_Angeles
-  date: January 8-11, 2019
-  place: Waikoloa Village, Hawaii
-  sub: CV
-
-- name: SLT
-  year: 2018
-  id: slt2018
-  link: http://slt2018.org/
-  deadline: "2018-12-17 23:59:59"
-  timezone: Etc/GMT
-  date: December 18-21, 2019
-  place: Athens, Greece
-  sub: SP
-
-- name: ACCV
-  year: 2018
-  id: accv18
-  link: http://accv2018.net/
-  deadline: "2018-12-01 23:59:59"
-  timezone: America/Los_Angeles
-  date: December 2-6, 2018
-  place: Perth, Western Australia
-  sub: CV
-
-- name: AAAI
-  year: 2019
-  id: aaai19
-  link: https://aaai.org/Conferences/AAAI-19/
-  deadline: "2019-01-26 23:59:59"
-  timezone: Etc/GMT+10
-  date: January 27 - February 1, 2019
-  place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
-  sub: ML
-
-- name: ICASSP
-  year: 2019
-  id: icassp2019
-  link: http://icassp2019.com/
-  deadline: "2019-05-11 23:59:59"
-  timezone: Etc/GMT
-  date: May 12-17, 2019
-  place: Brighton, UK
-  sub: SP
-
-- name: AAMAS
-  year: 2018
-  id: aamas18
-  link: http://celweb.vuse.vanderbilt.edu/aamas18
-  deadline: "2018-07-10 23:59:00"
-  timezone: Etc/GMT+12
-  date: July 11-13, 2018
-  place: Stockholm, Sweden
-  sub: ML
 
 - name: CVPR
   year: 2018
@@ -101,36 +20,6 @@
   place: Salt Lake City, Utah
   sub: CV
 
-- name: NAACL
-  year: 2018
-  id: naacl18
-  link: http://naacl2018.org/
-  deadline: "2018-06-01 23:59:59"
-  timezone: Etc/GMT+12
-  date: June 2-4, 2018
-  place: New Orleans, USA
-  sub: NLP
-
-- name: SIGGRAPH
-  year: 2018
-  id: siggraph18
-  link: http://s2018.siggraph.org/
-  deadline: "2018-08-12 21:59:59"
-  timezone: GMT
-  date: August 12-16, 2018
-  place: Vancouver, Canada
-  sub: GR
-
-- name: IJCAI
-  year: 2018
-  id: ijcai18
-  link: https://www.ijcai-18.org/
-  deadline: "2018-07-13 23:59:59"
-  timezone: Etc/GMT+12
-  date: July 13-19, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
 - name: RSS
   year: 2018
   id: rss18
@@ -140,26 +29,6 @@
   date: June 26-30, 2018
   place: Pittsburgh, Pennsylvania, USA
   sub: RO
-
-- name: ICML
-  year: 2018
-  id: icml18
-  link: https://icml.cc/Conferences/2018
-  deadline: "2018-07-10 18:59:59"
-  timezone: EST
-  date: July 10-15, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: KDD
-  year: 2018
-  id: kdd18
-  link: http://www.kdd.org/kdd2018/
-  deadline: "2018-08-19 23:59:59"
-  timezone: America/Los_Angeles
-  date: August 19-23, 2018
-  place: London, United Kingdom
-  sub: ML
 
 - name: COLT
   year: 2018
@@ -171,15 +40,35 @@
   place: Stockholm, Sweden
   sub: ML
 
-- name: IROS
+- name: AAMAS
   year: 2018
-  id: iros2018
-  link: https://www.iros2018.org/
-  deadline: "2018-10-01 23:59:59"
-  timezone: CET
-  date: October 1-5, 2018
-  place: Madrid, Spain
-  sub: RO
+  id: aamas18
+  link: http://celweb.vuse.vanderbilt.edu/aamas18
+  deadline: "2018-07-10 23:59:00"
+  timezone: Etc/GMT+12
+  date: July 11-13, 2018
+  place: Stockholm, Sweden
+  sub: ML
+
+- name: ICML
+  year: 2018
+  id: icml18
+  link: https://icml.cc/Conferences/2018
+  deadline: "2018-07-10 18:59:59"
+  timezone: EST
+  date: July 10-15, 2018
+  place: Stockholm, Sweden
+  sub: ML
+
+- name: IJCAI
+  year: 2018
+  id: ijcai18
+  link: https://www.ijcai-18.org/
+  deadline: "2018-07-13 23:59:59"
+  timezone: Etc/GMT+12
+  date: July 13-19, 2018
+  place: Stockholm, Sweden
+  sub: ML
 
 - name: UAI
   year: 2018
@@ -191,15 +80,25 @@
   place: Monterey, California, USA
   sub: ML
 
-- name: ECCV
+- name: SIGGRAPH
   year: 2018
-  id: eccv18
-  link: https://eccv2018.org/
-  deadline: "2018-09-08 15:59:00"
+  id: siggraph18
+  link: http://s2018.siggraph.org/
+  deadline: "2018-08-12 21:59:59"
+  timezone: GMT
+  date: August 12-16, 2018
+  place: Vancouver, Canada
+  sub: GR
+
+- name: KDD
+  year: 2018
+  id: kdd18
+  link: http://www.kdd.org/kdd2018/
+  deadline: "2018-08-19 23:59:59"
   timezone: America/Los_Angeles
-  date: September 8-14, 2018
-  place: Munich, Germany
-  sub: CV
+  date: August 19-23, 2018
+  place: London, United Kingdom
+  sub: ML
 
 - name: COLING
   year: 2018
@@ -231,15 +130,45 @@
   place: Newcastle upon Tyne
   sub: CV
 
-- name: NIPS
+- name: ECCV
   year: 2018
-  id: nips18
-  link: https://nips.cc/Conferences/2018
-  deadline: "2018-12-03 13:00:00"
+  id: eccv18
+  link: https://eccv2018.org/
+  deadline: "2018-09-08 15:59:00"
   timezone: America/Los_Angeles
-  date: December 3-8, 2018
-  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
-  sub: ML
+  date: September 8-14, 2018
+  place: Munich, Germany
+  sub: CV
+
+- name: IROS
+  year: 2018
+  id: iros2018
+  link: https://www.iros2018.org/
+  deadline: "2018-10-01 23:59:59"
+  timezone: CET
+  date: October 1-5, 2018
+  place: Madrid, Spain
+  sub: RO
+
+- name: CoRL
+  year: 2018
+  id: corl2018
+  link: http://www.robot-learning.org/
+  deadline: "2018-10-29 00:00:00"
+  timezone: America/Los_Angeles
+  date: October 29-31, 2018
+  place: Zurich, Switzerland
+  sub: RO
+
+- name: CoNLL
+  year: 2018
+  id: conll18
+  link: http://www.conll.org/
+  deadline: "2018-10-31 00:00:00"
+  timezone: Etc/GMT+12
+  date: October 31 - November 1, 2018
+  place: Brussels, Belgium
+  sub: NLP
 
 - name: EMNLP
   year: 2018
@@ -250,3 +179,74 @@
   date: November 2-4, 2018
   place: Brussels, Belgium
   sub: NLP
+
+- name: ICDM
+  year: 2018
+  id: icdm2018
+  link: http://icdm2018.org/
+  deadline: "2018-11-17 00:00:00"
+  timezone: Etc/GMT-7
+  date: November 17-20, 2018
+  place: Singapore
+  sub: ML
+
+- name: ACCV
+  year: 2018
+  id: accv18
+  link: http://accv2018.net/
+  deadline: "2018-12-01 23:59:59"
+  timezone: America/Los_Angeles
+  date: December 2-6, 2018
+  place: Perth, Western Australia
+  sub: CV
+
+- name: NIPS
+  year: 2018
+  id: nips18
+  link: https://nips.cc/Conferences/2018
+  deadline: "2018-12-03 13:00:00"
+  timezone: America/Los_Angeles
+  date: December 3-8, 2018
+  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
+  sub: ML
+
+- name: SLT
+  year: 2018
+  id: slt2018
+  link: http://slt2018.org/
+  deadline: "2018-12-17 23:59:59"
+  timezone: Etc/GMT
+  date: December 18-21, 2019
+  place: Athens, Greece
+  sub: SP
+
+- name: WACV
+  year: 2019
+  id: wacv19
+  link: http://wacv19.uccs.us/
+  deadline: "2019-01-07 23:59:59"
+  timezone: America/Los_Angeles
+  date: January 8-11, 2019
+  place: Waikoloa Village, Hawaii
+  sub: CV
+
+- name: AAAI
+  year: 2019
+  id: aaai19
+  link: https://aaai.org/Conferences/AAAI-19/
+  deadline: "2019-01-26 23:59:59"
+  timezone: Etc/GMT+10
+  date: January 27 - February 1, 2019
+  place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
+  sub: ML
+
+- name: ICASSP
+  year: 2019
+  id: icassp2019
+  link: http://icassp2019.com/
+  deadline: "2019-05-11 23:59:59"
+  timezone: Etc/GMT
+  date: May 12-17, 2019
+  place: Brighton, UK
+  sub: SP
+

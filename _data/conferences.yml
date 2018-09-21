@@ -170,6 +170,16 @@
   place: Madrid, Spain
   sub: RO
 
+- name: Recsys
+  year: 2018
+  id: recsys
+  link: https://recsys.acm.org/recsys18/
+  deadline: "2018-10-02 23:59:59"
+  timezone: CET
+  date: October 2-7, 2018
+  place: Vancouver, Canada
+  sub: ML
+
 - name: CoRL
   year: 2018
   id: corl2018

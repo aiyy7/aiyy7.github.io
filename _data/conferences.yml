@@ -270,6 +270,16 @@
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
 
+- name: WSDM
+  year: 2019
+  id: wsdm19
+  link: http://www.wsdm-conference.org/2019/
+  deadline: "2019-02-11 23:59:59"
+  timezone: Etc/GMT+10
+  date: February 11 - February 15, 2019
+  place: Melbourne, Australia
+  sub: ML
+
 - name: AISTATS
   year: 2010
   id: aistat19
